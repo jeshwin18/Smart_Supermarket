@@ -50,7 +50,7 @@ server<- function(input, output, session){
   output$header <- renderUI({
     fluidPage(
       fluidRow(
-        column(width = 3,tags$img(src='debugninja.jpg', height=110,width=110)),
+        column(width = 3,tags$img(src='poly-logo.jpg', height=110,width=110)),
         column(8),
         column(width=1)
       ),
